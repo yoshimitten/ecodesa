@@ -229,52 +229,130 @@ body{
 
 }
 
-/* ===================================================
-   RESPONSIVE
-=================================================== */
+/* ===================================
+   Dashboard Navbar
+=================================== */
 
-@media(max-width:992px){
+.dashboard-navbar{
 
-    .dashboard-hero{
+    background:#ffffff;
 
-        text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
 
-        padding:100px 0 60px;
-
-    }
-
-    .dashboard-hero h1{
-
-        font-size:2.2rem;
-
-    }
-
-    .dashboard-stat{
-
-        margin-top:-25px;
-
-    }
+    padding:12px 0;
 
 }
 
-@media(max-width:576px){
+.dashboard-navbar .navbar-brand{
 
-    .stat-box{
+    color:#198754;
 
-        text-align:center;
+    font-size:1.5rem;
 
-    }
+    font-weight:700;
 
-    .stat-icon{
+}
 
-        margin:auto auto 20px;
+.dashboard-navbar .navbar-brand i{
 
-    }
+    margin-right:8px;
 
-    .dashboard-hero h1{
+}
 
-        font-size:1.8rem;
+.dashboard-navbar .nav-link{
 
-    }
+    color:#555;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.dashboard-navbar .nav-link:hover{
+
+    color:#198754;
+
+}
+
+.dashboard-label{
+
+    background:#198754;
+
+    color:#fff;
+
+    padding:10px 18px;
+
+    border-radius:30px;
+
+    font-weight:600;
+
+    display:inline-flex;
+
+    align-items:center;
+
+}
+
+/* ===================================
+   Dashboard Navbar
+=================================== */
+
+.dashboard-navbar{
+
+    background:#ffffff;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+    padding:12px 0;
+
+}
+
+.dashboard-navbar .navbar-brand{
+
+    color:#198754;
+
+    font-size:1.5rem;
+
+    font-weight:700;
+
+}
+
+.dashboard-navbar .navbar-brand i{
+
+    margin-right:8px;
+
+}
+
+.dashboard-navbar .nav-link{
+
+    color:#555;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.dashboard-navbar .nav-link:hover{
+
+    color:#198754;
+
+}
+
+.dashboard-label{
+
+    background:#198754;
+
+    color:#fff;
+
+    padding:10px 18px;
+
+    border-radius:30px;
+
+    font-weight:600;
+
+    display:inline-flex;
+
+    align-items:center;
 
 }

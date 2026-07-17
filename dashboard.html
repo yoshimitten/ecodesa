@@ -32,33 +32,68 @@
 <script src="assets/js/dashboard.js"></script>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+<nav class="navbar navbar-expand-lg sticky-top dashboard-navbar">
 
     <div class="container">
 
         <!-- Logo -->
         <a class="navbar-brand" href="index.html">
             <i class="bi bi-recycle"></i>
-            EcoDesa
+            <span>EcoDesa</span>
         </a>
 
-        <!-- Mobile Button -->
+        <!-- Mobile Toggle -->
         <button class="navbar-toggler border-0 shadow-none"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#navbarMenu">
+                data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
 
             <i class="bi bi-list"></i>
 
         </button>
 
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                <li class="nav-item">
+
+                    <a href="index.html"
+                       class="nav-link">
+
+                        <i class="bi bi-arrow-left-circle me-2"></i>
+
+                        Kembali ke Website
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item ms-lg-3">
+
+                    <span class="dashboard-label">
+
+                        <i class="bi bi-bar-chart-fill me-2"></i>
+
+                        Dashboard
+
+                    </span>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
 </nav>
 
 <body>
-
-    <!-- Navbar -->
-
-    <!-- Nanti copy navbar dari index -->
 
     <!-- Dashboard Hero -->
 
